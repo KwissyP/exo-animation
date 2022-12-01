@@ -16,14 +16,15 @@ div:hover {
 }
 
 #bounce-title {
-  animation: bonus 2s linear infinite alternate;
+  animation: bonus 2s linear infinite alternate-reverse;
+  height: 30%;
 }
 
 @keyframes bonus {
   from{
-    transform: translateY(0px);  font-size: 150px;
+    transform: scaleY(2%);
   }
   to{
-    transform: translateY(150px); font-size: 15px;
+    transform: scaleY(140%);
   }
 }
