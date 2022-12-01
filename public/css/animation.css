@@ -14,3 +14,16 @@ div {
 div:hover {
   animation-play-state: paused;
 }
+
+#bounce-title {
+  animation: bonus 2s linear infinite alternate;
+}
+
+@keyframes bonus {
+  from{
+    transform: translateY(0px);  font-size: 150px;
+  }
+  to{
+    transform: translateY(150px); font-size: 15px;
+  }
+}
