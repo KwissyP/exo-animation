@@ -12,5 +12,5 @@ div {
 }
 
 div:hover {
-  animation: mymove paused;
+  animation-play-state: paused;
 }
